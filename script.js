@@ -14,6 +14,7 @@ const loginForm = document.getElementById('form');
       if (SeuEmail === usuario && SuaSenha === senha) {
         message.textContent = "Login bem-sucedido! ";
         message.style.color = "green";
+        window.location.href = "https://www.google.com/search?q=roblox&rlz=1C1FKPE_pt-PTBR1159BR1159&oq=roblox&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQLhiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDEzNTBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8";
 
       } else {
         message.textContent = "Usuário ou senha incorretos. 😡";
